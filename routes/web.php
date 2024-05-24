@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route untuk halaman cafe
+// Route untuk halaman zero/awal toko yang ini kak 
 Route::get('/cafe', function () {
     return view('home.cafe');
 })->name('cafe');
